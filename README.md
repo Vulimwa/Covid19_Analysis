@@ -17,14 +17,14 @@ You can download the dataset from [Kaggle's CORD-19 Research Challenge](https://
 ## Key Findings
 
 ### 1. Publication Timeline
-![Publications Over Time](results/publicationsovertime.png)
+![Publications Over Time](publicationsovertime.png)
 - Major surge in publications during 2020-2021
 - Peak publication volume in 2021 with over 200,000 papers
 - Continued high research activity through 2022
 - Historical coverage dating back to 1856
 
 ### 2. Top Publishing Journals
-![Top 10 Journals](results/top10journals.png)
+![Top 10 Journals](top10journals.png)
 
 Leading journals by publication volume:
 1. PLoS One (9,953 papers)
@@ -39,7 +39,7 @@ Leading journals by publication volume:
 10. Frontiers in Immunology (3,442 papers)
 
 ### 3. Word Cloud Analysis
-![Word Cloud of Paper Titles](results/wordcloud.png)
+![Word Cloud of Paper Titles](wordcloud.png)
 
 Most frequent terms in research titles:
 - Primary COVID-related terms: "covid19", "pandemic", "sarscov2", "coronavirus"
@@ -48,7 +48,7 @@ Most frequent terms in research titles:
 - Common prepositions and articles are filtered out for clarity
 
 ### 4. Paper Counts by Source
-![Paper Counts by Source](results/papercountsbysrc.png)
+![Paper Counts by Source](papercountsbysrc.png)
 - Shows the distribution of papers across different publication sources
 - Demonstrates the diversity of research outlets
 - Highlights the role of preprint servers and traditional journals
@@ -130,4 +130,5 @@ streamlit run app.py
 [MIT]
 
 ---
+
 *Note: This project is part of academic research and analysis of COVID-19 literature.*
